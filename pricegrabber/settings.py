@@ -21,13 +21,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = "django-insecure-vh#rvd7v_(ve6ww9e5s85+lgd5i%6i@e$*t)cag8c+)&ihucvv"
+# os.environ['SECRET_KEY']
 # django-insecure-vh#rvd7v_(ve6ww9e5s85+lgd5i%6i@e$*t)cag8c+)&ihucvv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['pricegrabber7.herokuapp.com','localhost']
+ALLOWED_HOSTS =[] 
+# ['pricegrabber7.herokuapp.com','localhost']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://pricegrabber7.herokuapp.com/'
