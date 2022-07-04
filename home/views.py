@@ -185,7 +185,7 @@ fomr(action=/subscribe)
 #BY PAPI AMAZON
 def getInfoAmazon(product):
     try:
-        amazon = AmazonApi('AKIAIDKADJLH5PNW6E3A','4zIG+d/ZSiizhlssIYd2aVTjw6RAKpcpOG40u2Dt','rahulamazonid-21','IN')
+        amazon = AmazonApi('','','','IN')
         search_result = amazon.search_items(keywords=product)
         # AmaProductList=[]
         # print(search_result.items)
